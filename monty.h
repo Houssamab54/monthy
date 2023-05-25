@@ -68,4 +68,5 @@ void func_div(stack_t **head, unsigned int counter);
 void addnode(stack_t **head, int n);
 void func_queue(stack_t **head, unsigned int counter);
 void addqueue(stack_t **head, int n);
+ssize_t getline(char **lineptr, size_t *n, FILE *stream);
 #endif
